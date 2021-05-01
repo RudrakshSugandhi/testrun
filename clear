@@ -1,0 +1,22 @@
+[1mdiff --git a/swap.py b/swap.py[m
+[1mindex 884dfd6..8e1d3d9 100644[m
+[1m--- a/swap.py[m
+[1m+++ b/swap.py[m
+[36m@@ -1,10 +1,6 @@[m
+[31m-min = 30[m
+[31m-max = 50[m
+[31m-temp = min[m
+[31m-min =max[m
+[31m-max = temp[m
+[31m-print(max)[m
+[31m-print( min)  [m
+[31m-print(temp)[m
+[31m-temp1 = min-max[m
+[31m-print(temp1)[m
+\ No newline at end of file[m
+[32m+[m[32mdef swap(a, b):[m
+[32m+[m[32m    temp = a[m[41m [m
+[32m+[m[32m    a = b[m
+[32m+[m[32m    b = temp[m
+[32m+[m[32m    return a,b[m
+[32m+[m[32mprint(swap(2,4))[m
